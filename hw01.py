@@ -45,12 +45,12 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
-    
     x = 27
     y = 1
     a = 1.5
     b = 7
     c = -1
+    # formula for result1: (3x - 9y) divided by 2a(b-c)
     result1 = (3*x - 9*y) / (2*a*(b-c))
 
     print("Part 1: x =", x)
@@ -74,6 +74,8 @@ def main():
     print("Part 2: x =", x)
     print("Part 2: y =", y)
     print("Part 2: result =", result2)
+    # x squared times y to the 4th power
+    result2 = x**2 * y**4
 
     # End of Part 2 ----------------------
 
@@ -92,10 +94,13 @@ def main():
     print("Part 3: a =", a)
     print("Part 3: b =", b)
     print("Part 3: result =", result3)
+    # integer division gives whole treats for each dog, with no remainder
+    result3 = a // b
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
     result4 = a % b
+    # modulo gives the leftover treats after dividing evenly
 
     print("Part 4: result =", result4)
     # End of Part 4 ----------------------
